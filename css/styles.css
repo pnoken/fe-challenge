@@ -353,7 +353,7 @@ nav a {
 .notifications .content {
   background: #202020;
   color: #ffffff;
-  width: 50%;
+  max-width: 50%;
   flex: 1;
   padding: 10%;
 }

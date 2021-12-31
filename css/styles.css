@@ -196,16 +196,17 @@ nav a {
   align-items: center;
 }
 
-.replies-container .content {
-  padding: 10%;
-  max-width: 50%;
-  flex: 1;
-}
-
 .replies .content {
   background: url("./images/replies/bg.svg");
   background-color: #007640;
   color: #ffffff;
+  padding: 10%;
+  width: 50%;
+}
+
+.replies .content > div {
+  margin: auto;
+  width: 80%;
 }
 
 .replies-container {
@@ -314,4 +315,35 @@ nav a {
 
 .earn-money .btn {
   background-color: #ff8c62;
+}
+
+/* NOTIFICATION AND FILTER NOISE SECTION */
+.notification-container {
+  display: flex;
+}
+
+.notifications .btn {
+  background-color: #ff8c62;
+}
+
+.filter-noise-img {
+  background: #272727;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+  flex: 1;
+  width: 50%;
+}
+
+.notifications .content {
+  background: #202020;
+  color: #ffffff;
+  max-width: 50%;
+  flex: 1;
+  padding: 7rem;
+}
+
+.notifications .content > div {
+  margin: auto;
+  width: 80%;
 }

@@ -186,3 +186,120 @@ nav a {
   top: 0;
   right: 0;
 }
+
+/* ASSURED AND CHAT SECTION */
+
+/* Be assured of replies */
+.btn-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.replies-container .content {
+  padding: 10%;
+  max-width: 50%;
+  flex: 1;
+}
+
+.replies .content {
+  background: url("./images/replies/bg.svg");
+  background-color: #007640;
+  color: #ffffff;
+}
+
+.replies-container {
+  display: flex;
+}
+
+/* Chat Section */
+.chat-box {
+  background: url("./images/replies/message-bg.svg");
+  background-color: #f0f0e6;
+  flex: 1;
+  position: relative;
+}
+
+.chat-box p {
+  opacity: 1;
+}
+
+.chat-content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  background: #fffffd;
+  padding: 1rem;
+}
+
+.profile > * {
+  margin: 0 1rem;
+}
+
+.chats {
+  display: flex;
+  flex-direction: column;
+  min-height: 37rem;
+}
+
+.chats time {
+  font-size: 0.8rem;
+}
+
+.chat1-container time {
+  float: right;
+}
+
+.chats > * {
+  padding: 1rem;
+  width: 60%;
+  background: #ffffff;
+}
+
+.chat1-container {
+  border-radius: 20px 20px 0px 20px;
+  margin: 4rem 0 1rem 0;
+  align-self: flex-end;
+}
+
+.chat2-container {
+  border-radius: 15px 15px 15px 0px;
+  margin: 1rem 0;
+}
+
+.chat3-container {
+  border-radius: 15px 15px 15px 0px;
+  margin: 1rem 0;
+}
+
+.chat-box .input-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fffffd;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+  margin-right: 30%;
+}
+
+.input-content > .input-field {
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.input-icons {
+  display: flex;
+}

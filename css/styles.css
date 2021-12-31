@@ -712,6 +712,10 @@ footer {
     width: 80%;
   }
 
+  .cta-container {
+    margin-top: -15rem;
+  }
+
   .main .header {
     padding-top: 2rem;
   }
@@ -733,6 +737,10 @@ footer {
   .influencer-content {
     width: 90%;
     padding-bottom: 5rem;
+  }
+
+  .earn-money {
+    padding-top: 3rem;
   }
 
   .phone-container > img {

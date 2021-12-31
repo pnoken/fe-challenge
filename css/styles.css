@@ -33,6 +33,19 @@ h3 {
   font-size: 2rem;
 }
 
+.btn {
+  border-radius: 50px;
+  background-color: #ffbb62;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 32px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 /* STYLING FOR SECTIONS AND INNER CONTENT */
 
 .section-container {

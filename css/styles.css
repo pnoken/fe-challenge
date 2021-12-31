@@ -7,3 +7,41 @@
   outline: none;
   border: 0;
 }
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
+}
+
+/* GENERAL ELEMENTS STYLING */
+p {
+  font-size: 1.2rem;
+  font-weight: normal;
+  opacity: 0.6;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 5rem;
+  line-height: 101.1%;
+  margin: 1.5rem 0;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/* STYLING FOR SECTIONS AND INNER CONTENT */
+
+.section-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.inner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -442,3 +442,113 @@ h3 {
   width: fit-content;
   margin-left: 5rem;
 }
+
+/* FOOTER WITH SUBSCRIPTION SECTION */
+
+/* Subscription */
+
+.subscription {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription > .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.subscription h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 2rem 0;
+  align-self: flex-end;
+  flex: 4;
+}
+
+.subscription .header > div {
+  flex: 1;
+}
+
+.subscription button {
+  color: #ffffff;
+  background: #000000;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  border: 1px solid #000000;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.subscription input {
+  font-size: 1rem;
+  text-align: left;
+  padding: 1rem;
+  border: 1px solid #000000;
+  border-radius: 5px 0 0 5px;
+}
+
+.subscription-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.subscription-form > div {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 5rem;
+  flex: 4;
+}
+
+form > input {
+  flex: 4;
+}
+
+form > button {
+  flex: 1;
+}
+
+form > input {
+  width: 100%;
+}
+
+/* footer */
+
+footer {
+  padding: 2rem 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  line-height: 3rem;
+}
+
+.footer-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: 4;
+}
+
+.footer-container .social-media-items {
+  flex: 1;
+}
+
+.footer-container ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: baseline;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #000000;
+}

@@ -310,7 +310,7 @@ nav a {
 .earn-money-img {
   flex: 1;
   padding-top: 4rem;
-  bottom: 0;
+  bottom: auto;
 }
 
 .earn-money .btn {
@@ -338,9 +338,9 @@ nav a {
 .notifications .content {
   background: #202020;
   color: #ffffff;
-  max-width: 50%;
+  width: 50%;
   flex: 1;
-  padding: 7rem;
+  padding: 10%;
 }
 
 .notifications .content > div {
@@ -551,4 +551,179 @@ footer {
 .footer-container a {
   text-decoration: none;
   color: #000000;
+}
+
+/* SCREEN RESPONSIVENESS */
+
+@media (max-width: 1400px) {
+  body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+  }
+
+  .main h1 {
+    font-size: 5rem;
+  }
+
+  .phone-container > img {
+    width: 550px;
+  }
+
+  .phone-container img:nth-child(3) {
+    margin-right: -400px;
+  }
+
+  .phone-container img:nth-child(1) {
+    margin-right: 260px;
+  }
+
+  .phone-container {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+  }
+
+  .phone-container {
+    min-height: 300px;
+  }
+
+  .phone-container img:nth-child(3) {
+    margin-right: -200px;
+  }
+
+  .phone-container img:nth-child(1) {
+    margin-right: 150px;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .main h1 {
+    font-size: 5rem;
+  }
+
+  .influencer-img {
+    align-self: center;
+  }
+
+  .influencer-img img {
+    height: 400px;
+  }
+
+  .store {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .store img {
+    width: 100px;
+  }
+
+  .phone-container > img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 760px) {
+  nav > ul {
+    display: none;
+  }
+
+  .main .header {
+    padding-top: 2rem;
+  }
+
+  .main h1 {
+    font-size: 3rem;
+  }
+
+  .app-download > img {
+    width: 45%;
+  }
+
+  .what-can-logo {
+    width: 100px;
+  }
+
+  .what-can-logo2 > img {
+    width: 200px;
+  }
+
+  .notifications .content > div,
+  .replies .content > div {
+    margin: auto;
+    width: 100%;
+  }
+
+  .replies-container,
+  .notification-container {
+    flex-direction: column;
+  }
+
+  .earn-money-img > img {
+    width: 300px;
+  }
+
+  .filter-noise-img {
+    width: 100%;
+    max-width: 100;
+  }
+
+  .filter-noise-img > img {
+    width: 400px;
+  }
+
+  .replies-container > .content,
+  .notification-container > .content {
+    flex: none;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .inner-content {
+    flex-direction: column;
+  }
+
+  .phone-in-hand {
+    display: none;
+  }
+
+  .footer-container,
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* MOBILE SCREEN with max width of 375px */
+@media (max-width: 376px) {
+  body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    min-height: 100vh;
+  }
 }

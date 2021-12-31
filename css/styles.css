@@ -45,3 +45,49 @@ h3 {
   justify-content: space-between;
   align-items: center;
 }
+
+/* HOME WITH NAVBAR SECTION */
+.home {
+  background: url("./images/background1.svg"), #029f58;
+  text-align: center;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  padding: 2rem;
+}
+
+nav li {
+  padding: 2rem;
+  color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main h1 {
+  font-weight: bold;
+  font-size: 8rem;
+  line-height: 101.1%;
+  margin-bottom: 2rem;
+}
+
+.main p {
+  opacity: 1;
+}

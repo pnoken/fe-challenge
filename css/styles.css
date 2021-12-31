@@ -707,6 +707,11 @@ footer {
     display: none;
   }
 
+  .influencer-img {
+    margin: auto;
+    width: 80%;
+  }
+
   .main .header {
     padding-top: 2rem;
   }

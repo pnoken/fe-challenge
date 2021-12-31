@@ -91,3 +91,33 @@ nav a {
 .main p {
   opacity: 1;
 }
+
+.app-download > * {
+  padding: 3rem 1rem;
+}
+
+.phone-container {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.phone-container img {
+  position: absolute;
+  transform-origin: center;
+  bottom: 0;
+}
+
+.phone-container img:nth-child(2) {
+  z-index: 2;
+}
+
+.phone-container img:nth-child(3) {
+  margin-right: -350px;
+}
+
+.phone-container img:nth-child(1) {
+  margin-right: 350px;
+}

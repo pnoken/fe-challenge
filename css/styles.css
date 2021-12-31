@@ -167,3 +167,22 @@ nav a {
   right: 0;
   position: absolute;
 }
+
+/* CONNECT WITH TOP INFLUENCERS SECTION */
+.influencers .inner-content {
+  padding: 7rem 0;
+}
+
+.influencer-img {
+  position: relative;
+  height: 438px;
+  padding: 7rem;
+}
+
+.influencer-img img {
+  object-fit: contain;
+  object-position: top;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

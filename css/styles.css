@@ -303,3 +303,15 @@ nav a {
 .input-icons {
   display: flex;
 }
+
+/* SETTLEMENTS & EARN MONEY WHILE YOU CHAT SECTION */
+
+.earn-money-img {
+  flex: 1;
+  padding-top: 4rem;
+  bottom: 0;
+}
+
+.earn-money .btn {
+  background-color: #ff8c62;
+}

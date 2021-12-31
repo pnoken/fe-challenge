@@ -61,7 +61,7 @@ h3 {
 
 /* HOME WITH NAVBAR SECTION */
 .home {
-  background: url("./images/background1.svg"), #029f58;
+  background: url("../images/background1.svg"), #029f58;
   text-align: center;
   color: #fff;
 }
@@ -138,7 +138,7 @@ nav a {
 /* EAR1 HELP SECTION */
 
 .what-can {
-  background: url("./images/what-can/bg.svg");
+  background: url("../images/what-can/bg.svg");
 }
 
 .what-can .inner-content {
@@ -149,6 +149,7 @@ nav a {
 .what-help {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
 .what-help h2 {
@@ -179,6 +180,10 @@ nav a {
   padding: 7rem;
 }
 
+.influencer-content {
+  width: 40%;
+}
+
 .influencer-img img {
   object-fit: contain;
   object-position: top;
@@ -197,7 +202,7 @@ nav a {
 }
 
 .replies .content {
-  background: url("./images/replies/bg.svg");
+  background: url("../images/replies/bg.svg");
   background-color: #007640;
   color: #ffffff;
   padding: 10%;
@@ -215,7 +220,7 @@ nav a {
 
 /* Chat Section */
 .chat-box {
-  background: url("./images/replies/message-bg.svg");
+  background: url("../images/replies/message-bg.svg");
   background-color: #f0f0e6;
   flex: 1;
   position: relative;
@@ -307,6 +312,10 @@ nav a {
 
 /* SETTLEMENTS & EARN MONEY WHILE YOU CHAT SECTION */
 
+.earn-money {
+  width: 40%;
+}
+
 .earn-money-img {
   flex: 1;
   padding-top: 4rem;
@@ -361,6 +370,10 @@ nav a {
   flex-shrink: 0;
 }
 
+.phone {
+  z-index: -1;
+}
+
 .phone > img {
   width: 90%;
 }
@@ -373,17 +386,26 @@ nav a {
 
 .bullet-point {
   display: flex;
-  align-items: baseline;
+}
+
+.bullet-point > .wrapper {
+  position: relative;
+  overflow: hidden;
 }
 
 .bullet-point > .wrapper::after {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  transform: rotate(90deg);
+  content: "";
   height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: block;
+  position: absolute;
+  top: 22px;
+  margin-left: 10px;
+  width: 1px;
 }
 
 .bullet-content {
-  padding-bottom: 80px;
+  padding-bottom: 3rem;
   width: 25rem;
   padding-left: 2rem;
 }
@@ -397,37 +419,30 @@ h3 {
   font-size: 2rem;
 }
 
-.ellipse ::after {
-  content: "";
-  background: rgba(0, 0, 0, 0.2);
-  height: 100%;
-  width: 1px;
-}
-
 /* CALL TO ACTION SECTION */
 
 .cta .section-container {
-  background: url("./images/cta/bg.svg"), #029f58;
+  background: url("../images/cta/bg.svg"), #029f58;
   border-radius: 100px;
   top: -18rem;
   color: #ffffff;
 }
 
-.cta {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
 .cta-container {
   display: flex;
   width: fit-content;
-  margin-left: 7rem;
+  margin: -15rem 0 2rem 7rem;
 }
 
 .hand {
   height: 100%;
   object-fit: contain;
   object-position: top;
-  padding-top: 5rem;
+  padding-top: 10rem;
+}
+
+.cta-text .store img {
+  width: 180px;
 }
 
 .cta-text {
@@ -446,15 +461,6 @@ h3 {
   padding: 2rem 0;
 }
 
-.phone-in-hand {
-  display: flex;
-  width: fit-content;
-  position: absolute;
-  margin-left: 5rem;
-  bottom: 0;
-  left: 0;
-}
-
 /* FOOTER WITH SUBSCRIPTION SECTION */
 
 /* Subscription */
@@ -462,6 +468,7 @@ h3 {
 .subscription {
   display: flex;
   flex-direction: column;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .subscription > .header {
@@ -594,8 +601,12 @@ footer {
     min-height: 400px;
   }
 
-  .phone-in-hand > img {
-    width: 200px;
+  .cta-text > h3 {
+    font-size: 3rem;
+  }
+
+  .cta-container {
+    margin-top: -10rem;
   }
 }
 
@@ -623,11 +634,15 @@ footer {
   }
 
   .cta-text > h3 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .cta-text .store img {
-    max-width: 180px;
+    max-width: 120px;
+  }
+
+  .cta-container {
+    margin-top: -2rem;
   }
 }
 
@@ -640,6 +655,12 @@ footer {
 
   .phone-container {
     min-height: 300px;
+  }
+
+  .earn-money,
+  .what-help,
+  .influencer-content {
+    width: 90%;
   }
 
   .phone-container img:nth-child(3) {
@@ -666,13 +687,12 @@ footer {
     height: 400px;
   }
 
-  .store {
-    display: flex;
-    flex-direction: column;
+  .store img {
+    width: 60px;
   }
 
-  .store img {
-    width: 100px;
+  .hand {
+    width: 200px;
   }
 
   .phone-container > img {
@@ -756,12 +776,12 @@ footer {
     flex-direction: column;
   }
 
-  .hand {
-    display: none;
+  .cta-text {
+    padding-left: 0;
   }
 
-  .cta-container {
-    padding-left: 0;
+  .hand {
+    display: none;
   }
 
   .footer-container,

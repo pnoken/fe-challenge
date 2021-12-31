@@ -403,3 +403,42 @@ h3 {
   height: 100%;
   width: 1px;
 }
+
+/* CALL TO ACTION SECTION */
+
+.cta .section-container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.cta-container {
+  display: flex;
+  position: relative;
+  top: -18rem;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  color: #ffffff;
+  background: url("./images/cta/bg.svg"), #029f58;
+  border-radius: 100px;
+  padding-top: 10rem;
+  min-width: 100%;
+}
+
+.cta-text {
+  margin: 3rem;
+  line-height: 5rem;
+}
+
+.cta-text > h3 {
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.cta-text > p {
+  opacity: 1;
+}
+
+.phone-in-hand {
+  display: flex;
+  width: fit-content;
+  margin-left: 5rem;
+}

@@ -23,7 +23,7 @@ p {
 
 h2 {
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 101.1%;
   margin: 1.5rem 0;
 }
@@ -95,13 +95,13 @@ nav a {
 }
 
 .main .header {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
 .main h1 {
   font-weight: bold;
-  font-size: 8rem;
+  font-size: 7rem;
   line-height: 101.1%;
   margin-bottom: 2rem;
 }
@@ -120,6 +120,7 @@ nav a {
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-left: -10rem;
 }
 
 .phone-container img {
@@ -216,7 +217,7 @@ nav a {
 
 .replies .content > div {
   margin: auto;
-  width: 80%;
+  width: 100%;
 }
 
 .replies-container {
@@ -367,6 +368,7 @@ nav a {
 .features h2 {
   color: #007640;
   margin: 7rem 0 0 0;
+  width: 40%;
 }
 
 .features > .inner-content {
@@ -436,7 +438,7 @@ h3 {
 .cta-container {
   display: flex;
   width: fit-content;
-  margin: -15rem 0 2rem 7rem;
+  margin: -15rem 0 4rem 7rem;
 }
 
 .hand {
@@ -480,6 +482,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding-top: 2rem;
 }
 
 .subscription h4 {
@@ -662,13 +665,6 @@ footer {
     min-height: 300px;
   }
 
-  .earn-money,
-  .what-help,
-  .influencer-content {
-    width: 90%;
-    padding-bottom: 5rem;
-  }
-
   .phone-container img:nth-child(3) {
     margin-right: -200px;
   }
@@ -725,6 +721,13 @@ footer {
 
   .phone-container {
     min-height: 150px;
+  }
+
+  .earn-money,
+  .what-help,
+  .influencer-content {
+    width: 90%;
+    padding-bottom: 5rem;
   }
 
   .phone-container > img {

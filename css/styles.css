@@ -94,6 +94,11 @@ nav a {
   flex-direction: column;
 }
 
+.main .header {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .main h1 {
   font-weight: bold;
   font-size: 8rem;
@@ -661,6 +666,7 @@ footer {
   .what-help,
   .influencer-content {
     width: 90%;
+    padding-bottom: 5rem;
   }
 
   .phone-container img:nth-child(3) {

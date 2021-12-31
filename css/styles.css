@@ -810,4 +810,12 @@ footer {
     font-size: 14px;
     min-height: 100vh;
   }
+
+  .main h1 {
+    font-size: 2rem;
+  }
+
+  .bullets .bullet-content {
+    width: 95%;
+  }
 }

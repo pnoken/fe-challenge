@@ -121,3 +121,36 @@ nav a {
 .phone-container img:nth-child(1) {
   margin-right: 350px;
 }
+
+/* EAR1 HELP SECTION */
+
+.what-can {
+  background: url("./images/what-can/bg.svg");
+}
+
+.what-can .inner-content {
+  position: relative;
+  padding: 7rem 0;
+}
+
+.what-help {
+  display: flex;
+  flex-direction: column;
+}
+
+.what-help h2 {
+  color: #007640;
+}
+
+.what-can-logo {
+  position: absolute;
+  margin: -3.5rem 0 0 -3.5rem;
+  z-index: -1;
+}
+
+.what-can-logo2 {
+  z-index: -1;
+  top: 0;
+  right: 0;
+  position: absolute;
+}

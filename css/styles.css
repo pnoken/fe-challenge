@@ -347,3 +347,59 @@ nav a {
   margin: auto;
   width: 80%;
 }
+
+/* EAR ASSURANCE SECTION */
+
+.features h2 {
+  color: #007640;
+  margin: 7rem 0 0 0;
+}
+
+.features > .inner-content {
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.phone > img {
+  width: 90%;
+}
+
+.bullets {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.bullet-point {
+  display: flex;
+  align-items: baseline;
+}
+
+.bullet-point > .wrapper::after {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  transform: rotate(90deg);
+  height: 100%;
+}
+
+.bullet-content {
+  padding-bottom: 80px;
+  width: 25rem;
+  padding-left: 2rem;
+}
+
+.bullet-content > h3 {
+  padding-bottom: 1.5rem;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.ellipse ::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 1px;
+}
